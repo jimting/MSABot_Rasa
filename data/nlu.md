@@ -1,10 +1,3 @@
-## intent:out_of_scope
-- asdfagergaergergwerg
-- kkkkkkkkkkkk
-- asdoogqkwlkj;qglkwelkrjl;aksd
-- asfiuawoheiuhqowirjtlk
-- diaf kdfow kdf kw qo
-
 ## intent:service_health
 - I want to know the health data.
 - the health data
