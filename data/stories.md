@@ -1,17 +1,19 @@
-## happy_path
-* greet
-  - utter_greet
-* mood_happy
-  - utter_happy
-* goodbye
-  - utter_goodbye
+## service_health
+* service_health
+  - utter_health
   - action_restart
-
-## sad_path
-* greet
-  - utter_greet
-* mood_unhappy
-  - actions.ActionJoke
-* goodbye
-  - utter_goodbye
+  
+## service_info
+* service_info
+  - utter_info
+  - action_restart
+  
+## service_using_info
+* service_using_info
+  - utter_using_info
+  - action_restart
+  
+## service_api_list
+* service_api_list
+  - utter_api_list
   - action_restart
