@@ -34,3 +34,8 @@
 - Please give me the API list.
 - API list
 - api
+
+## intent:service_env
+- Please give me the env data.
+- env
+- environment
