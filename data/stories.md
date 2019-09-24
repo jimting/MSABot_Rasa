@@ -1,3 +1,7 @@
+## fallback_story
+* out_of_scope
+  - action_default_fallback
+
 ## service_health
 * service_health
   - utter_health
