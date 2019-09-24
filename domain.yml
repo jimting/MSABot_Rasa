@@ -14,12 +14,20 @@ actions:
 
 templates:
   utter_health:
-    - text: "health"
+    - text: "I'll give you the health data."
   utter_info:
-    - text: "info"
+    - text: "I'll give you the service info."
   utter_using_info:
-    - text: "using_info"
+    - text: "I'll give you the using_info."
   utter_api_list:
-    - text: "api_list"
+    - text: "I'll give you the api_list."
   utter_env:
-    - text: "env"
+    - text: "I'll give you the env data."
+  utter_default:
+    - text: "sorry,I don't know what you mean."
+    
+policies:
+  - name: "FallbackPolicy"
+    nlu_threshold: 0.4
+    core_threshold: 0.3
+    fallback_action_name: "action_default_fallback"
