@@ -1,9 +1,9 @@
 {
   "states": [
-    "intent_goodbye",
-    "intent_greet",
-    "intent_mood_happy",
-    "intent_mood_unhappy",
+    "intent_service_api_list",
+    "intent_service_health",
+    "intent_service_info",
+    "intent_service_using_info",
     "prev_action_listen",
     "prev_action_restart",
     "prev_action_default_fallback",
@@ -12,10 +12,9 @@
     "prev_action_default_ask_affirmation",
     "prev_action_default_ask_rephrase",
     "prev_action_back",
-    "prev_utter_greet",
-    "prev_utter_happy",
-    "prev_utter_cheer_up",
-    "prev_utter_goodbye",
-    "prev_action_joke"
+    "prev_utter_health",
+    "prev_utter_info",
+    "prev_utter_using_info",
+    "prev_utter_api_list"
   ]
 }

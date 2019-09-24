@@ -1,31 +1,30 @@
 %YAML 1.1
 ---
 actions:
-- utter_greet
-- utter_happy
-- utter_cheer_up
-- utter_goodbye
-- action_joke
+- utter_health
+- utter_info
+- utter_using_info
+- utter_api_list
 config:
   store_entities_as_slots: true
 entities: []
 forms: []
 intents:
-- greet:
+- service_health:
     use_entities: true
-- mood_happy:
+- service_info:
     use_entities: true
-- mood_unhappy:
+- service_using_info:
     use_entities: true
-- goodbye:
+- service_api_list:
     use_entities: true
 slots: {}
 templates:
-  utter_cheer_up:
-  - text: Don't be sad. Keep smiling!
-  utter_goodbye:
-  - text: Goodbye!
-  utter_greet:
-  - text: Hi, how is it going?
-  utter_happy:
-  - text: Great, carry on!
+  utter_api_list:
+  - text: api_list
+  utter_health:
+  - text: health
+  utter_info:
+  - text: info
+  utter_using_info:
+  - text: using_info

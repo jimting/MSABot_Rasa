@@ -2,116 +2,60 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "greet",
-        "text": "hey"
+        "intent": "service_health",
+        "text": "I want to know the health data."
       },
       {
-        "intent": "greet",
-        "text": "hello"
+        "intent": "service_health",
+        "text": "the health data"
       },
       {
-        "intent": "greet",
-        "text": "hi"
+        "intent": "service_health",
+        "text": "health data"
       },
       {
-        "intent": "greet",
-        "text": "good morning"
+        "intent": "service_info",
+        "text": "Please give me the service's info."
       },
       {
-        "intent": "greet",
-        "text": "good evening"
+        "intent": "service_info",
+        "text": "the service's info"
       },
       {
-        "intent": "greet",
-        "text": "hey there"
+        "intent": "service_info",
+        "text": "service's info"
       },
       {
-        "intent": "mood_happy",
-        "text": "perfect"
+        "intent": "service_info",
+        "text": "information"
       },
       {
-        "intent": "mood_happy",
-        "text": "very good"
+        "intent": "service_using_info",
+        "text": "What's the service's using overview?"
       },
       {
-        "intent": "mood_happy",
-        "text": "great"
+        "intent": "service_using_info",
+        "text": "using amount information"
       },
       {
-        "intent": "mood_happy",
-        "text": "amazing"
+        "intent": "service_using_info",
+        "text": "using amount"
       },
       {
-        "intent": "mood_happy",
-        "text": "wonderful"
+        "intent": "service_using_info",
+        "text": "using information"
       },
       {
-        "intent": "mood_happy",
-        "text": "I am feeling very good"
+        "intent": "service_using_info",
+        "text": "amount overview"
       },
       {
-        "intent": "mood_happy",
-        "text": "I am great"
+        "intent": "service_api_list",
+        "text": "Please give me the API list."
       },
       {
-        "intent": "mood_happy",
-        "text": "I'm good"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "sad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "very sad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "unhappy"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "bad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "very bad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "awful"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "terrible"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "not very good"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "extremely sad"
-      },
-      {
-        "intent": "mood_unhappy",
-        "text": "so sad"
-      },
-      {
-        "intent": "goodbye",
-        "text": "bye"
-      },
-      {
-        "intent": "goodbye",
-        "text": "goodbye"
-      },
-      {
-        "intent": "goodbye",
-        "text": "see you around"
-      },
-      {
-        "intent": "goodbye",
-        "text": "see you later"
+        "intent": "service_api_list",
+        "text": "API list"
       }
     ],
     "regex_features": [],
