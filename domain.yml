@@ -12,7 +12,7 @@ actions:
   - utter_using_info
   - utter_api_list
   - utter_env
-  - action_default_fallback
+  - utter_default
 
 templates:
   utter_health:
@@ -27,6 +27,7 @@ templates:
     - text: "I'll give you the env data."
   utter_default:
     - text: "sorry,I don't know what you mean."
+    
     
 policies:
   - name: "FallbackPolicy"
