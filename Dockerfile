@@ -9,7 +9,6 @@ RUN python3 -m spacy download en
 
 ADD ./models /app/models/
 ADD ./config /app/config/
-ADD ./actions /app/actions/
 
 ENTRYPOINT []
 
