@@ -1,0 +1,65 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "service_health",
+        "text": "I want to know the health data."
+      },
+      {
+        "intent": "service_health",
+        "text": "the health data"
+      },
+      {
+        "intent": "service_health",
+        "text": "health data"
+      },
+      {
+        "intent": "service_info",
+        "text": "Please give me the service's info."
+      },
+      {
+        "intent": "service_info",
+        "text": "the service's info"
+      },
+      {
+        "intent": "service_info",
+        "text": "service's info"
+      },
+      {
+        "intent": "service_info",
+        "text": "information"
+      },
+      {
+        "intent": "service_using_info",
+        "text": "What's the service's using overview?"
+      },
+      {
+        "intent": "service_using_info",
+        "text": "using amount information"
+      },
+      {
+        "intent": "service_using_info",
+        "text": "using amount"
+      },
+      {
+        "intent": "service_using_info",
+        "text": "using information"
+      },
+      {
+        "intent": "service_using_info",
+        "text": "amount overview"
+      },
+      {
+        "intent": "service_api_list",
+        "text": "Please give me the API list."
+      },
+      {
+        "intent": "service_api_list",
+        "text": "API list"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
