@@ -9,7 +9,7 @@ actions:
   - utter_happy
   - utter_cheer_up
   - utter_goodbye
-  - action_joke
+  - actions.ActionJoke
 
 templates:
   utter_greet:

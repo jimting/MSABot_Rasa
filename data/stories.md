@@ -11,7 +11,7 @@
 * greet
   - utter_greet
 * mood_unhappy
-  - action_unhappy
+  - actions.ActionJoke
 * goodbye
   - utter_goodbye
   - action_restart
