@@ -3,12 +3,14 @@ intents:
   - service_info
   - service_using_info
   - service_api_list
+  - service_env
 
 actions:
   - utter_health
   - utter_info
   - utter_using_info
   - utter_api_list
+  - utter_env
 
 templates:
   utter_health:
@@ -19,3 +21,5 @@ templates:
     - text: "using_info"
   utter_api_list:
     - text: "api_list"
+  utter_env:
+    - text: "env"
