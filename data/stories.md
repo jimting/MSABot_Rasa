@@ -1,6 +1,3 @@
-## fallback_story
-  - action_default_fallback
-
 ## service_health
 * service_health
   - utter_health

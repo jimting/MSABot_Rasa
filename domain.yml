@@ -11,6 +11,7 @@ actions:
   - utter_using_info
   - utter_api_list
   - utter_env
+  - action_default_fallback
 
 templates:
   utter_health:
@@ -25,9 +26,3 @@ templates:
     - text: "env"
   utter_default:
     - text: "sorry,I don't know what you mean."
-    
-policies:
-  - name: "FallbackPolicy"
-    nlu_threshold: 0.4
-    core_threshold: 0.3
-    fallback_action_name: "action_default_fallback"
