@@ -17,4 +17,4 @@ ENTRYPOINT []
 CMD python3 -m rasa_core.train -d /app/domain.yml -s /app/data/stories.md -o /app/models/rasa_core
 
 CMD python3 -m rasa_core_sdk.endpoint --actions app.actions.actions 
-CMD python3 -m rasa_core.run --enable_api -d models/dialogue -u /app/models/rasa_nlu/current/nlu --endpoints /app/config/endpoints.yml
+CMD python3 -m rasa_core.run --enable_api -d /app/domain.yml -u /app/models/rasa_nlu/current/nlu --endpoints /app/config/endpoints.yml
