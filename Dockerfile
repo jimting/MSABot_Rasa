@@ -1,6 +1,7 @@
 FROM rasa/rasa-sdk:latest
 
 ADD ./models /app/models/
+ADD ./data /app/data
 ADD ./config /app/config/
 ADD ./actions /app/actions/
 
