@@ -1,3 +1,5 @@
+from rasa_core_sdk import Action
+
 class ActionWeather(Action):
 
     def name(self):
