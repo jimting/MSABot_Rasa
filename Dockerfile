@@ -15,5 +15,7 @@ ENTRYPOINT []
 CMD python3 -m rasa_core.train -d /app/domain.yml -s /app/data/stories.md -o /app/models/rasa_core
 CMD python3 -m rasa_nlu.train -c /app/config/nlu_config.yml -d /app/data/nlu.md --fixed_model_name nlu -o /app/models/rasa_nlu --project current
 
+CMD python3 -m rasa_core.train -s /app/data/stories.md -d /app/domain.yml -o /app/models/dialogue --history 1 --nlu_threshold 0.1 --core_threshold 0.1 --fallback_action action_default_fallback --epochs 300
+
 CMD python3 -m rasa_core_sdk.endpoint --actions app.actions.actions 
 CMD python3 -m rasa_core.run --enable_api --core /app/models/rasa_core -u /app/models/rasa_nlu/current/nlu --endpoints /app/config/endpoints.yml --credentials /app/config/credentials.yml -p $PORT

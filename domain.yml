@@ -4,7 +4,6 @@ intents:
   - service_using_info
   - service_api_list
   - service_env
-  - out_of_scope
 
 actions:
   - utter_health
@@ -12,7 +11,6 @@ actions:
   - utter_using_info
   - utter_api_list
   - utter_env
-  - utter_default
 
 templates:
   utter_health:
