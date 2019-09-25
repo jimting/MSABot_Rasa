@@ -1,9 +1,6 @@
 FROM rasa/rasa-sdk:latest
 
-ADD ./models /app/models/
-ADD ./data /app/data
-ADD ./config /app/config/
-ADD ./actions /app/actions/
+ADD . /app
 
 RUN pip3 install rasa-core 
 RUN pip3 install rasa-nlu[tensorflow] 
