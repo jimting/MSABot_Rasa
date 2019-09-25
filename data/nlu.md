@@ -1,3 +1,27 @@
+## intent:weather
+- Tell me the weather in [Berlin] (weather)
+- What is the weather in [California] (weather)?
+- Say what in [Moskau] (weather) is the weather
+- [Hamburg] (weather) is the weather?
+- Tell me the temperature of [Bengasi] (weather)
+- Is in [Geldern] (weather) nice weather?
+- Tell me, what temperature is now in [Sachsen] (weather)
+- Is now a nice weather in [London] (weather) to make holidays?
+- What about [Johannesburg] (weather), is there a nice weather?
+- Is the temperature in [Hannover] (weather) high?-Is the temperature in [Straelen] (weather) low?
+- Is it cold in [Krefeld] (weather)?
+- Can you tell me, is it hot in [Florida] (weather) at the moment?
+- Can you tell me, is it hot in [Bengasi] (weather) at the moment?
+- Can you tell me, is it hot in [Mainz] (weather) at the moment?
+- Is now a nice weather in [Britain] (weather) to make holidays?
+- What about [Luxenburg] (weather), is there a nice weather?
+- Tell me the weather in [Orlando] (weather)
+- What is the weather in [Barcelona] (weather)?
+- Say what in [Canada] (weather) is the weather
+- [Bermuda] (weather) is the weather?
+- Is the temperature in [Panama] (weather) high?
+- Is the temperature in [Cuba] (weather) low? 
+
 ## intent:service_health
 - I want to know the health data for [GroceryInventory](service).
 - the health data for [GroceryInventory](service)
