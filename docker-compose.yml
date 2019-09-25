@@ -1,14 +1,29 @@
 version: '3.0'
 services:
-  rasa:
-    image: rasa/rasa:latest-full
+  rasa_core:
+    image: rasa/rasa_core:latest
     ports:
       - 5005:5005
     volumes:
-      - ./:/app
+      - ./models/rasa_core:/app/models
     command:
-      - run
+      - start
+      - --core
+      - models
+      - -c
+      - rest
+  rasa_nlu:
+    image: rasa/rasa_nlu:latest-spacy
+    volumes:
+      - ./models/rasa_nlu:/app/models
+      - ./config:/app/config
+    command:
+      - start
+      - --path
+      - models
+      - -c
+      - config/nlu_config.yml
   action_server:
-    image: rasa/rasa-sdk:latest
+    image: rasa/rasa_core_sdk:latest
     volumes:
       - ./actions:/app/actions

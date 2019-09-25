@@ -1,5 +1,11 @@
 language: en
-pipeline: spacy_sklearn
+pipeline:
+- name: "nlp_spacy"
+- name: "tokenizer_spacy"
+- name: "intent_entity_featurizer_regex"
+- name: "intent_featurizer_spacy"
+- name: "ner_crf"
+- name: "intent_classifier_sklearn"
 policies:
   - name: "FallbackPolicy"
     nlu_threshold: 0.4
