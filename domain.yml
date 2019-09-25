@@ -13,7 +13,7 @@ actions:
   - utter_api_list
   - utter_env
   - action_default_fallback
-  - action_weather
+  - actions.ActionWeather
 
 templates:
   utter_health:
