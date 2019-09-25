@@ -14,15 +14,15 @@ actions:
 
 templates:
   utter_health:
-    - text: "I'll give you the health data."
+    - text: "health"
   utter_info:
-    - text: "I'll give you the service info."
+    - text: "service_info"
   utter_using_info:
-    - text: "I'll give you the using_info."
+    - text: "using_info"
   utter_api_list:
-    - text: "I'll give you the api_list."
+    - text: "api_list"
   utter_env:
-    - text: "I'll give you the env data."
+    - text: "env"
   utter_default:
     - text: "sorry,I don't know what you mean."
     
