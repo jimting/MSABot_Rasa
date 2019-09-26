@@ -1,10 +1,29 @@
-slots:
-  city:
-    type: text
 intents:
+  - service_health
+  - service_info
+  - service_using_info
+  - service_api_list
+  - service_env
   - weather
+
 actions:
-  - actions.actions.ActionGetWeather
+  - utter_health
+  - utter_info
+  - utter_using_info
+  - utter_api_list
+  - utter_env
+  - actions.actions.ActionWeather
+
 templates:
+  utter_health:
+    - text: "health"
+  utter_info:
+    - text: "service_info"
+  utter_using_info:
+    - text: "using_info"
+  utter_api_list:
+    - text: "api_list"
+  utter_env:
+    - text: "env"
   utter_default:
     - text: "sorry,I don't know what you mean."
