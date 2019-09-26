@@ -1,5 +1,4 @@
 language: en
-
 pipeline:
 - name: "nlp_spacy"
 - name: "tokenizer_spacy"
@@ -7,11 +6,8 @@ pipeline:
 - name: "intent_featurizer_spacy"
 - name: "ner_crf"
 - name: "intent_classifier_sklearn"
-
 policies:
-  - name: "examples.restaurantbot.policy.RestaurantPolicy"
-    batch_size: 100
-    epochs: 100
-    validation_split: 0.2
-  - name: MemoizationPolicy
-  - name: MappingPolicy
+  - name: "FallbackPolicy"
+    nlu_threshold: 0.4
+    core_threshold: 0.3
+    fallback_action_name: "action_default_fallback"
