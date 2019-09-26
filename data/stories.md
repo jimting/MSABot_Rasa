@@ -1,6 +1,6 @@
 ## story_weather
 * weather
-  - action_weather
+  - actions.actions.ActionWeather
 
 ## service_health
 * service_health
