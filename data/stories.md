@@ -1,3 +1,4 @@
-## story_weather
-* weather
-  - action_weather
+## get weather
+* get_weather
+  - action_get_weather
+  - action_restart
