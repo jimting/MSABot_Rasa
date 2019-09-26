@@ -1,17 +1,23 @@
-## intent:get_weather
-- what's the weather
-- what's the weather in [Czech Republic](GPE)
-- what is the weather
-- what is the weather in [New Zealand](GPE)
-- whats the weather
-
-## synonym:Prague
-- Czech Republic
-- Czechia
-- CR
-- CZ
-
-## synonym:Auckland
-- New Zealand
-- NZ
-- Zealand
+## intent:weather
+- Tell me the weather in [Berlin] (city)
+- What is the weather in [California] (city)?
+- Say what in [Moskau] (city) is the weather
+- [Hamburg] (city) is the weather?
+- Tell me the temperature of [Bengasi] (city)
+- Is in [Geldern] (city) nice weather?
+- Tell me, what temperature is now in [Sachsen] (city)
+- Is now a nice weather in [London] (city) to make holidays?
+- What about [Johannesburg] (city), is there a nice weather?
+- Is the temperature in [Hannover] (city) high?-Is the temperature in [Straelen] (city) low?
+- Is it cold in [Krefeld] (city)?
+- Can you tell me, is it hot in [Florida] (city) at the moment?
+- Can you tell me, is it hot in [Bengasi] (city) at the moment?
+- Can you tell me, is it hot in [Mainz] (city) at the moment?
+- Is now a nice weather in [Britain] (city) to make holidays?
+- What about [Luxenburg] (city), is there a nice weather?
+- Tell me the weather in [Orlando] (city)
+- What is the weather in [Barcelona] (city)?
+- Say what in [Canada] (city) is the weather
+- [Bermuda] (city) is the weather?
+- Is the temperature in [Panama] (city) high?
+- Is the temperature in [Cuba] (city) low? 

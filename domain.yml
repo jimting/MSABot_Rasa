@@ -1,10 +1,10 @@
 slots:
-  GPE:
+  city:
     type: text
 intents:
-  - get_weather
+  - weather
 actions:
-  - actions.weather.ActionGetWeather
+  - actions.actions.ActionGetWeather
 templates:
   utter_default:
     - text: "sorry,I don't know what you mean."

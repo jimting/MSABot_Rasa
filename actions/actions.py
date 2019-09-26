@@ -1,14 +1,15 @@
 from rasa_core_sdk import Action
 
-class ActionGetWeather(Action):
+class ActionWeather(Action):
 
     def name(self):
-        return 'action_get_weather'
+        return "action_weather"
 
     def run(self, dispatcher, tracker, domain):
-        where = ('Auckland', tracker.get_slot('GPE'))[bool(tracker.get_slot('GPE'))]
+        where = next(tracker.get_latest_entity_values('weather'), None)
         if where is not None:
             dispatcher.utter_message("You asked about {}".format(where))
         else:
-            dispatcher.utter_message("I don't know where!")
-        return
+            dispatcher.utter_message("I couldn't tell where!")
+        
+        return []
