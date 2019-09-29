@@ -1,14 +1,15 @@
-import requests
-import json
 from rasa_core_sdk import Action
 
+class ActionHealth(Action):
 
-class ActionJoke(Action):
-  def name(self):
-    return "action_joke"
+    def name(self):
+        return "action_health"
 
-  def run(self, dispatcher, tracker, domain):
-    request = requests.get('http://api.icndb.com/jokes/random').json() #make an api call
-    joke = request['value']['joke'] #extract a joke from returned json response
-    dispatcher.utter_message(joke) #send the message back to the user
-    return []
+    def run(self, dispatcher, tracker, domain):
+        service = next(tracker.get_latest_entity_values('service'), None)
+        if service is not None:
+            dispatcher.utter_message("You asked about {}".format(service))
+        else:
+            dispatcher.utter_message("I couldn't tell what service you want!")
+        
+        return []

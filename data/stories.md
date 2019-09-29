@@ -1,6 +1,6 @@
 ## service_health
 * service_health
-  - utter_health
+  - action_health
   - action_restart
   
 ## service_info
@@ -21,9 +21,4 @@
 ## service_env
 * service_env
   - utter_env
-  - action_restart
-
-## joke
-* joke
-  - action_joke
   - action_restart
