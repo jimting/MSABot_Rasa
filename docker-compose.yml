@@ -8,10 +8,14 @@ services:
       - ./models/rasa_core:/app/models
     command:
       - start
-      - -d
-      - ./model
+      - --core
+      - models
       - -c
       - rest
+      - --endpoints
+      - config/endpoints.yml
+      - -u
+      - current/
   rasa_nlu:
     image: rasa/rasa_nlu:latest-spacy
     volumes:
