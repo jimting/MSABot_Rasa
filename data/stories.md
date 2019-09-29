@@ -22,3 +22,8 @@
 * service_env
   - utter_env
   - action_restart
+
+## joke
+* joke
+  - action_joke
+  - action_restart

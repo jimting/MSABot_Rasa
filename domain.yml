@@ -11,6 +11,7 @@ actions:
   - utter_using_info
   - utter_api_list
   - utter_env
+  - action_joke
   
 templates:
   utter_health:

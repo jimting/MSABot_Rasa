@@ -48,3 +48,7 @@
 - Please give me the env data.
 - env
 - environment setting
+
+## intent:joke
+- joke
+- give me a joke
