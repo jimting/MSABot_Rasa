@@ -13,7 +13,7 @@ services:
       - -c
       - rest
       - --endpoints
-      - config/endpoints.yml
+      - ./config/endpoints.yml
       - -u
       - current/
   rasa_nlu:
