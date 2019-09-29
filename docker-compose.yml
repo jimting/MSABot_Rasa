@@ -5,7 +5,7 @@ services:
     ports:
       - 5005:5005
     volumes:
-      - ./models/rasa_core:/app/models
+      - ./:/app
     command:
       - start
       - --core
