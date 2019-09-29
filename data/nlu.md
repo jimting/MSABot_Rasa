@@ -47,4 +47,4 @@
 ## intent:service_env
 - Please give me the env data.
 - env
-- environment
+- environment setting
