@@ -23,5 +23,3 @@ templates:
     - text: "api_list"
   utter_env:
     - text: "env"
-  utter_default:
-    - text: "sorry,I don't know what you mean."
