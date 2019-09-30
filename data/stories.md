@@ -1,11 +1,11 @@
 ## service_health
 * service_health
-  - action_service_health
+  - utter_service_health
   - action_restart
   
 ## service_info
 * service_info
-  - action_service_info
+  - utter_service_info
   - action_restart
   
 ## service_using_info

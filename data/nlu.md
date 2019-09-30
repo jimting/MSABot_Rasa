@@ -47,6 +47,14 @@
 
 ## intent:service_api_list
 - Please give me the API list for [GroceryInventory](service).
+- the service's API list for [GroceryInventory](service)
+- service's API list for [GroceryInventory](service)
+- the API list for [GroceryInventory](service)
+- give me the [GroceryInventory](service)'s the API list.
+- give me the [GroceryInventory](service)'s the api list.
+- [GroceryInventory](service) API list please.
+- give me the API list for [GroceryInventory](service).
+- the API list about [GroceryInventory](service)
 - API list
 - api
 
