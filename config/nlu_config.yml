@@ -7,3 +7,11 @@ pipeline:
 - name: "intent_featurizer_spacy"
 - name: "ner_crf"
 - name: "intent_classifier_sklearn"
+
+policies:
+  - name: TwoStageFallbackPolicy
+    nlu_threshold: 0.3
+    core_threshold: 0.3
+    fallback_core_action_name: "action_default_fallback"
+    fallback_nlu_action_name: "action_default_fallback"
+    deny_suggestion_intent_name: "out_of_scope"

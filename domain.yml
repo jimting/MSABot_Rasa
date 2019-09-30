@@ -14,4 +14,6 @@ actions:
   
 templates:
   utter_env:
-    - text: "env"
+    - text: "{'intent': 'action_service_env'}"
+  utter_default:
+    - text: "{'intent': 'none'}"
