@@ -51,11 +51,7 @@
 - api
 
 ## lookup:service
-- GroceryInventory
-- CinemaCatalog
-- Notification
-- Ordering
-- Payment
+./service.txt
 
 ## intent:service_env
 - Please give me the env data.

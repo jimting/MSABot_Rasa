@@ -14,7 +14,7 @@ class ActionHealth(Action):
 			"intent" : "action_service_health",
 			"service" : searching_service
 		}
-		dispatcher.utter_message(data)
+		dispatcher.utter_message(format(data))
 		return []
 		
 class ActionInfo(Action):
@@ -31,7 +31,7 @@ class ActionInfo(Action):
 			"intent" : "action_service_info",
 			"service" : searching_service
 		}
-		dispatcher.utter_message(data)
+		dispatcher.utter_message(format(data))
 		return []
 
 class ActionUsingInfo(Action):
@@ -48,7 +48,7 @@ class ActionUsingInfo(Action):
 			"intent" : "action_service_using_info",
 			"service" : searching_service
 		}
-		dispatcher.utter_message(data)
+		dispatcher.utter_message(format(data))
 		return []
 
 class ActionApiList(Action):
@@ -65,5 +65,5 @@ class ActionApiList(Action):
 			"intent" : "action_service_api_list",
 			"service" : searching_service
 		}
-		dispatcher.utter_message(data)
+		dispatcher.utter_message(format(data))
 		return []
