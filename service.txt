@@ -1,0 +1,5 @@
+GroceryInventory
+CinemaCatalog
+Notification
+Ordering
+Payment

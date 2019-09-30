@@ -11,16 +11,13 @@ actions:
   - utter_using_info
   - utter_api_list
   - utter_env
-  - action_health
+  - action_service_health
+  - action_service_info
+  - action_service_using_info
+  - action_service_api_list
   
 templates:
-  utter_health:
-    - text: "health"
-  utter_info:
-    - text: "service_info"
-  utter_using_info:
-    - text: "using_info"
-  utter_api_list:
-    - text: "api_list"
   utter_env:
     - text: "env"
+  utter_default:
+    - text: "none"

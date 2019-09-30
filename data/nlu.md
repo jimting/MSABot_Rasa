@@ -1,20 +1,19 @@
 ## intent:service_health
 - I want to know the health data for [GroceryInventory](service).
-- I want to know the health data for [CinemaCatalog](service).
-- I want to know the health data for [Notification](service).
-- I want to know the health data for [Ordering](service).
-- I want to know the health data for [Payment](service).
 - the health data for [GroceryInventory](service)
-- [GroceryInventory](service) health data
-- [Ordering](service) health data
-- [Payment](service) health data
-- please give me [GroceryInventory](service) health data.
-- please give me [CinemaCatalog](service) health data.
-- please give me [Notification](service) health data.
-- please give me [Ordering](service) health data.
+- [GroceryInventory](service)'s health data
+- [Ordering](service)'s health data
+- [Payment](service)'s health data
+- please give me [GroceryInventory](service)'s health data.
+- please give me [CinemaCatalog](service)'s health data.
+- please give me [Notification](service)'s health data.
+- please give me [Ordering](service)'s health data.
 - give me the health data for [GroceryInventory](service).
 - give me something about the health data for [GroceryInventory](service).
 - give me health data for [Payment](service) please.
+- health data
+- health information
+- health
 
 ## intent:service_info
 - Please give me the [GroceryInventory](service)'s info.
@@ -25,6 +24,10 @@
 - give me the [GroceryInventory](service)'s info please.
 - [GroceryInventory](service) info please.
 - give me the info for [GroceryInventory](service).
+- detail about [GroceryInventory](service)
+- service detail
+- service information
+- service info
 
 ## intent:service_using_info
 - What's the [GroceryInventory](service)'s using overview?
@@ -38,9 +41,15 @@
 - give me the using information for [GroceryInventory](service) please.
 - please give me the amount overview for [GroceryInventory](service).
 - please give me the using information for [GroceryInventory](service).
+- using amount
+- using info
+- using information
+
+## lookup:service
+./service.txt
 
 ## intent:service_api_list
-- Please give me the API list.
+- Please give me the API list for [GroceryInventory](service).
 - API list
 - api
 
@@ -48,7 +57,3 @@
 - Please give me the env data.
 - env
 - environment setting
-
-## intent:joke
-- joke
-- give me a joke

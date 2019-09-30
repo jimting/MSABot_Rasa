@@ -1,21 +1,21 @@
 ## service_health
 * service_health
-  - action_health
+  - action_service_health
   - action_restart
   
 ## service_info
 * service_info
-  - utter_info
+  - action_service_info
   - action_restart
   
 ## service_using_info
 * service_using_info
-  - utter_using_info
+  - action_service_using_info
   - action_restart
   
 ## service_api_list
 * service_api_list
-  - utter_api_list
+  - action_service_api_list
   - action_restart
   
 ## service_env
