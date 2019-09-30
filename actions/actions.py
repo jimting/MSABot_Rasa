@@ -1,5 +1,4 @@
 from rasa_core_sdk import Action
-import json
 
 class ActionHealth(Action):
 
@@ -8,11 +7,9 @@ class ActionHealth(Action):
 
     def run(self, dispatcher, tracker, domain):
         service = next(tracker.get_latest_entity_values('service'), None)
-		searching_service = ""
+		searching_service = "none"
         if service is not None:
             searching_service = service
-        else:
-            searching_service = "none"
 		data = {
 			"intent" : "action_service_health",
 			"service" : searching_service
@@ -27,11 +24,9 @@ class ActionInfo(Action):
 
     def run(self, dispatcher, tracker, domain):
         service = next(tracker.get_latest_entity_values('service'), None)
-		searching_service = ""
+		searching_service = "none"
         if service is not None:
             searching_service = service
-        else:
-            searching_service = "none"
 		data = {
 			"intent" : "action_service_info",
 			"service" : searching_service
@@ -46,11 +41,9 @@ class ActionUsingInfo(Action):
 
     def run(self, dispatcher, tracker, domain):
         service = next(tracker.get_latest_entity_values('service'), None)
-		searching_service = ""
+		searching_service = "none"
         if service is not None:
             searching_service = service
-        else:
-            searching_service = "none"
 		data = {
 			"intent" : "action_service_using_info",
 			"service" : searching_service
@@ -65,11 +58,9 @@ class ActionApiList(Action):
 
     def run(self, dispatcher, tracker, domain):
         service = next(tracker.get_latest_entity_values('service'), None)
-		searching_service = ""
+		searching_service = "none"
         if service is not None:
             searching_service = service
-        else:
-            searching_service = "none"
 		data = {
 			"intent" : "action_service_api_list",
 			"service" : searching_service
