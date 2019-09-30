@@ -11,6 +11,7 @@ actions:
   - action_service_info
   - action_service_using_info
   - action_service_api_list
+  - action_default_fallback
   
 templates:
   utter_env:
