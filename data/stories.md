@@ -15,7 +15,7 @@
   
 ## service_api_list
 * service_api_list
-  - action_service_api_list
+  - utter_service_api_list
   - action_restart
   
 ## service_env
