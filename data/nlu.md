@@ -45,13 +45,17 @@
 - using info
 - using information
 
-## lookup:service
-./service.txt
-
 ## intent:service_api_list
 - Please give me the API list for [GroceryInventory](service).
 - API list
 - api
+
+## lookup:service
+- GroceryInventory
+- CinemaCatalog
+- Notification
+- Ordering
+- Payment
 
 ## intent:service_env
 - Please give me the env data.
