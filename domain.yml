@@ -7,6 +7,7 @@ intents:
 
 actions:
   - utter_env
+  - utter_service_using_info
   - utter_service_api_list
   - action_service_health
   - action_service_info
@@ -15,6 +16,8 @@ actions:
   - action_default_fallback
   
 templates:
+  utter_service_using_info:
+    - text : "{'intent': 'utter_service_using_info', 'service' : '{service}"
   utter_service_api_list:
     - text: "{'intent': 'action_service_api_list', 'service' : '{service}'}"
   utter_env:

@@ -10,7 +10,7 @@
   
 ## service_using_info
 * service_using_info
-  - action_service_using_info
+  - utter_service_using_info
   - action_restart
   
 ## service_api_list
