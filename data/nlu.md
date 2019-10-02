@@ -58,12 +58,11 @@
 - API list
 - api
 
+## intent:service_only
+- [GroceryInventory](service)
+
 ## lookup:service
-- GroceryInventory
-- CinemaCatalog
-- Notification
-- Ordering
-- Payment
+data/service.txt
 
 ## intent:service_env
 - Please give me the env data.
