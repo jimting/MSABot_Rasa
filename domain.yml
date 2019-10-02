@@ -20,11 +20,11 @@ actions:
   
 templates:
   utter_service_health:
-    - text : "{'intent': 'utter_service_health', 'service' : '{service}"
+    - text : "{'intent': 'utter_service_health', 'service' : '{service}'}"
   utter_service_info:
-    - text : "{'intent': 'utter_service_info', 'service' : '{service}"
+    - text : "{'intent': 'utter_service_info', 'service' : '{service}'}"
   utter_service_using_info:
-    - text : "{'intent': 'utter_service_using_info', 'service' : '{service}"
+    - text : "{'intent': 'utter_service_using_info', 'service' : '{service}'}"
   utter_service_api_list:
     - text: "{'intent': 'action_service_api_list', 'service' : '{service}'}"
   utter_env:
