@@ -4,7 +4,6 @@ intents:
   - service_using_info
   - service_api_list
   - service_env
-  - fallback
 
 actions:
   - utter_env
@@ -14,7 +13,6 @@ actions:
   - action_service_using_info
   - action_service_api_list
   - action_service_only
-  - action_default_fallback
   
 templates:
   utter_env:

@@ -27,7 +27,3 @@
 * service_only
   - action_service_only
   - action_restart
-  
-## fallback
-* out_of_scope
-  - action_default_fallback
