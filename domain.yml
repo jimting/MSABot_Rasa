@@ -16,6 +16,7 @@ actions:
   - action_service_info
   - action_service_using_info
   - action_service_api_list
+  - action_service_only
   - action_default_fallback
   
 templates:
