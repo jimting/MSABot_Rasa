@@ -22,7 +22,12 @@
 * service_env
   - utter_env
   - action_restart
- 
+
+## service_only
+* service_only
+  - utter_service_only
+  - action_restart
+  
 ## fallback story
 * out_of_scope
   - action_default_fallback

@@ -11,6 +11,7 @@ actions:
   - utter_service_using_info
   - utter_service_api_list
   - utter_env
+  - utter_service_only
   - action_service_health
   - action_service_info
   - action_service_using_info
@@ -28,5 +29,7 @@ templates:
     - text: "{'intent': 'action_service_api_list', 'service' : '{service}'}"
   utter_env:
     - text: "{'intent': 'action_service_env'}"
+  utter_service_only:
+    - text: "{'intent': 'utter_service_only', 'service' : '{service}'}"
   utter_default:
     - text: "{'intent': 'none'}"
