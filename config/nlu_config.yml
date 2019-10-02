@@ -10,8 +10,8 @@ pipeline:
 
 policies:
   - epochs: 50
-  max_history: 6
-  name: KerasPolicy
-- core_threshold: 0.3
-  name: TwoStageFallbackPolicy
-  nlu_threshold: 0.8
+    max_history: 6
+    name: KerasPolicy
+  - core_threshold: 0.3
+    name: TwoStageFallbackPolicy
+    nlu_threshold: 0.8
