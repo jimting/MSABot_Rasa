@@ -14,6 +14,7 @@
 - health data
 - health information
 - health
+- I want to know the health data for [CinemaCatalog](service).
 
 ## intent:service_info
 - Please give me the [GroceryInventory](service)'s info.
