@@ -62,7 +62,7 @@
 - [GroceryInventory](service)
 
 ## lookup:service
-data/service.txt
+./data/service.txt
 
 ## intent:service_env
 - Please give me the env data.
