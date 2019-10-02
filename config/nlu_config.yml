@@ -13,5 +13,5 @@ policies:
     max_history: 6
     name: KerasPolicy
   - core_threshold: 0.3
-    name: TwoStageFallbackPolicy
+    name: FallbackPolicy
     nlu_threshold: 0.8
