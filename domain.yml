@@ -4,7 +4,6 @@ intents:
   - service_using_info
   - service_api_list
   - service_env
-  - fallback story
 
 actions:
   - utter_env
