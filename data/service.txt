@@ -1,5 +1,5 @@
-GroceryInventory
-CinemaCatalog
-Notification
-Ordering
-Payment
+- GroceryInventory
+- CinemaCatalog
+- Notification
+- Ordering
+- Payment
