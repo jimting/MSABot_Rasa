@@ -61,9 +61,41 @@
 
 ## intent:service_only
 - [GroceryInventory](service)
+- about [GroceryInventory](service)
+- for [GroceryInventory](service)
+
+## intent:detail_api
+- What's the [getGroceryByID](api) in [GroceryInventory](service)?
+- How to use the [getGroceryByID](api) in [GroceryInventory](service)?
+- Tell me about the [getGroceryByID](api) in [GroceryInventory](service).
+
+## intent:last_build_fail
+- What's the reason my building failed for [GroceryInventory](service)?
+- Why the [GroceryInventory](service) failed?
+
+## intent:connect_error
+- Tell me the connection error about [GroceryInventory](service).
+- How's the connection for [GroceryInventory](service)?
+- Is [GroceryInventory](service)'s connection alright?
+- Tell me if the connection went wrong about [GroceryInventory](service).
 
 ## lookup:service
-data/service.txt
+- GroceryInventory
+- CinemaCatalog
+- Notification
+- Ordering
+- Payment
+
+## lookup:api
+- getGrocery
+- getGroceryByID
+- getGroceryFromOrderList
+- getNotification
+- orderingGrocery
+- getAllMovies
+- getMovieByID
+- getNotification
+- orderingMovie
 
 ## intent:service_env
 - Please give me the env data.
