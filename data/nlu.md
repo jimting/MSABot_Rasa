@@ -71,6 +71,8 @@
 
 ## intent:last_build_fail
 - What's the reason my building failed for [GroceryInventory](service)?
+- Tell me the last building fail's trace for [GroceryInventory](service).
+- building fail reason for [GroceryInventory](service)
 - Why the [GroceryInventory](service) failed?
 
 ## intent:connect_error
