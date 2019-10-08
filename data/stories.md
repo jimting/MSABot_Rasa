@@ -42,3 +42,8 @@
 * connect_error
   - action_connect_error
   - action_restart
+
+## bot_help
+* bot_help
+  - utter_bot_help
+  - action_restart

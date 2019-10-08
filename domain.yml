@@ -7,9 +7,11 @@ intents:
   - detail_api
   - last_build_fail
   - connect_error
+  - bot_help
 actions:
   - utter_env
   - utter_service_only
+  - utter_bot_help
   - action_service_health
   - action_service_info
   - action_service_using_info
@@ -22,5 +24,7 @@ actions:
 templates:
   utter_env:
     - text: "{\"intent\" : \"action_service_env\"}"
+  utter_bot_help:
+    - text: "{\"intent\" : \"bot_help\"}"
   utter_default:
     - text: "{\"intent\" : \"none\"}"

@@ -103,3 +103,13 @@
 - Please give me the env data.
 - env
 - environment setting
+
+## intent:bot_help
+- help
+- how to use
+- use guide
+- using tutorial
+- bot tutorial
+- bot introduction
+- bot help
+- how to use this bot?
