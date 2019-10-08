@@ -4,13 +4,13 @@ intents:
   - service_using_info
   - service_api_list
   - service_env
+  - service_only
   - detail_api
   - last_build_fail
   - connect_error
   - bot_help
 actions:
   - utter_env
-  - utter_service_only
   - utter_bot_help
   - action_service_health
   - action_service_info
