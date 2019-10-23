@@ -1,20 +1,14 @@
 ## intent:service_health
-- I want to know the health data for [GroceryInventory](service).
-- the health data for [GroceryInventory](service)
-- [GroceryInventory](service)'s health data
-- [Ordering](service)'s health data
-- [Payment](service)'s health data
-- please give me [GroceryInventory](service)'s health data.
-- please give me [CinemaCatalog](service)'s health data.
-- please give me [Notification](service)'s health data.
-- please give me [Ordering](service)'s health data.
-- give me the health data for [GroceryInventory](service).
-- give me something about the health data for [GroceryInventory](service).
-- give me health data for [Payment](service) please.
+- I want to know the health data for.
+- the health data
 - health data
+- please give me health data.
+- give me the health data
+- give me something about the health data.
+- give me health data please.
 - health information
-- health
-- I want to know the health data for [CinemaCatalog](service).
+- tell me if my server's health.
+- I want to know the health data for my server.
 
 ## intent:service_info
 - Please give me the [GroceryInventory](service)'s info.

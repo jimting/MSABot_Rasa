@@ -12,7 +12,7 @@ intents:
 actions:
   - utter_env
   - utter_bot_help
-  - action_service_health
+  - utter_service_health
   - action_service_info
   - action_service_using_info
   - action_service_api_list
@@ -22,6 +22,8 @@ actions:
   - action_connect_error
   
 templates:
+  utter_service_health:
+    - text: "{\"intent\" : \"action_service_health\"}"
   utter_env:
     - text: "{\"intent\" : \"action_service_env\"}"
   utter_bot_help:

@@ -1,6 +1,6 @@
 ## service_health
 * service_health
-  - action_service_health
+  - utter_service_health
   - action_restart
   
 ## service_info
