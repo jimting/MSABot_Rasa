@@ -67,16 +67,12 @@
 - about [Ordering](service)
 - for [Ordering](service)
 
-## intent:detail_api
-- What's the [getGroceryByID](api) in [GroceryInventory](service)?
-- How to use the [getGroceryByID](api) in [GroceryInventory](service)?
-- Tell me about the [getGroceryByID](api) in [GroceryInventory](service).
-
 ## intent:last_build_fail
 - What's the reason my building failed for [GroceryInventory](service)?
 - Tell me the last building fail's trace for [GroceryInventory](service).
 - building fail reason for [GroceryInventory](service)
 - Why the [GroceryInventory](service) failed?
+- What's the reason my building failed for [CinemaCatalog](service)?
 
 ## intent:connect_error
 - Tell me the connection error about [GroceryInventory](service).
@@ -90,17 +86,6 @@
 - Notification
 - Ordering
 - Payment
-
-## lookup:api
-- getGrocery
-- getGroceryByID
-- getGroceryFromOrderList
-- getNotification
-- orderingGrocery
-- getAllMovies
-- getMovieByID
-- getNotification
-- orderingMovie
 
 ## intent:service_env
 - Please give me the env data.

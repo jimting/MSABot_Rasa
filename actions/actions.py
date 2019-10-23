@@ -84,30 +84,7 @@ class ActionBuildFail(Action):
 		}
 		dispatcher.utter_message(format(data))
 		return []
-		
-class ActionDetailAPI(Action):
 
-	def name(self):
-		return "action_detail_api"
-
-	def run(self, dispatcher, tracker, domain):
-		service = next(tracker.get_latest_entity_values('service'), None)
-		searching_service = "none"
-		if service is not None:
-			searching_service = service
-			
-		api = next(tracker.get_latest_entity_values('api'), None)
-		searching_api = "none"
-		if api is not None:
-			searching_api = api
-			
-		data = {
-			"intent" : "action_detail_api",
-			"service" : searching_service,
-			"api" : searching_api
-		}
-		dispatcher.utter_message(format(data))
-		return []
 		
 class ActionConnectError(Action):
 

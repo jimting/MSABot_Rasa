@@ -27,12 +27,7 @@
 * service_only
   - action_service_only
   - action_restart
-  
-## detail_api
-* detail_api
-  - action_detail_api
-  - action_restart
-  
+
 ## last_build_fail
 * last_build_fail
   - action_build_fail

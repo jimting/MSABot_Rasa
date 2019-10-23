@@ -5,7 +5,6 @@ intents:
   - service_api_list
   - service_env
   - service_only
-  - detail_api
   - last_build_fail
   - connect_error
   - bot_help
@@ -17,7 +16,6 @@ actions:
   - action_service_using_info
   - action_service_api_list
   - action_service_only
-  - action_detail_api
   - action_build_fail
   - action_connect_error
   
