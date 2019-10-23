@@ -57,6 +57,15 @@
 - [GroceryInventory](service)
 - about [GroceryInventory](service)
 - for [GroceryInventory](service)
+- [CinemaCatalog](service)
+- about [CinemaCatalog](service)
+- for [CinemaCatalog](service)
+- [Notification](service)
+- about [Notification](service)
+- for [Notification](service)
+- [Ordering](service)
+- about [Ordering](service)
+- for [Ordering](service)
 
 ## intent:detail_api
 - What's the [getGroceryByID](api) in [GroceryInventory](service)?
