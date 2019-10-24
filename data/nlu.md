@@ -73,6 +73,7 @@
 - building fail reason for [GroceryInventory](service)
 - Why the [GroceryInventory](service) failed?
 - What's the reason my building failed for [CinemaCatalog](service)?
+- what's the building data for [CinemaCatalog](service)?
 
 ## intent:connect_error
 - Tell me the connection error about [GroceryInventory](service).
