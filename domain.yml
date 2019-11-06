@@ -1,4 +1,5 @@
 intents:
+  - bot_join
   - service_health
   - service_info
   - service_using_info
@@ -9,6 +10,7 @@ intents:
   - connect_error
   - bot_help
 actions:
+  - utter_bot_join
   - utter_env
   - utter_bot_help
   - utter_service_health
@@ -20,6 +22,8 @@ actions:
   - action_connect_error
   
 templates:
+  utter_bot_join:
+    - text: "{\"intent\" : \"bot_join\"}"
   utter_service_health:
     - text: "{\"intent\" : \"action_service_health\"}"
   utter_env:

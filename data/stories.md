@@ -42,3 +42,8 @@
 * bot_help
   - utter_bot_help
   - action_restart
+
+## bot_join
+* bot_join
+  - utter_bot_join
+  - action_restart

@@ -1,3 +1,6 @@
+## intent:bot_join
+- has joined the channel
+
 ## intent:service_health
 - I want to know the health data for.
 - the health data
