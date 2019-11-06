@@ -92,6 +92,9 @@
 - Please give me the env data.
 - env
 - environment setting
+- Tell me the env setting info.
+- the environment setting info
+- Tell me the environment setting.
 
 ## intent:bot_help
 - help
