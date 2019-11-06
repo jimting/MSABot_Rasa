@@ -47,3 +47,8 @@
 * bot_join
   - utter_bot_join
   - action_restart
+  
+## service_dependency_graph
+* service_dependency_graph
+  - utter_dependency_graph
+  - action_restart

@@ -1,5 +1,6 @@
 intents:
   - bot_join
+  - hello
   - service_health
   - service_info
   - service_using_info
@@ -9,8 +10,10 @@ intents:
   - last_build_fail
   - connect_error
   - bot_help
+  - service_dependency_graph
 actions:
   - utter_bot_join
+  - utter_hello
   - utter_env
   - utter_bot_help
   - utter_service_health
@@ -20,8 +23,13 @@ actions:
   - action_service_only
   - action_build_fail
   - action_connect_error
+  - utter_dependency_graph
   
 templates:
+  utter_dependency_graph:
+    - text: "{\"intent\" : \"action_dependency_graph\"}"
+  utter_hello:
+    - text: "{\"intent\" : \"hello\"}"
   utter_bot_join:
     - text: "{\"intent\" : \"bot_join\"}"
   utter_service_health:

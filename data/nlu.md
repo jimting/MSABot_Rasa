@@ -4,6 +4,13 @@
 - joined channel
 - has joined
 
+## intent:hello
+- hi
+- hey
+- yo
+- hello
+- hihi
+
 ## intent:service_health
 - I want to know the health data for.
 - the health data
@@ -101,6 +108,8 @@
 - Tell me the env setting info.
 - the environment setting info
 - Tell me the environment setting.
+- tell me all about the server.
+- tell me the server's environment setting.
 
 ## intent:bot_help
 - help
@@ -111,3 +120,15 @@
 - bot introduction
 - bot help
 - how to use this bot?
+
+## intent:service_dependency_graph
+- give me the dependency graph.
+- What's the dependency graph?
+- how the dependency between our services?
+- give me the dependency graph.
+- tell me the dependency between services.
+- dependency graph
+- services' dependency status
+- dependency status
+- dependency overview
+- give me the dependency overview
