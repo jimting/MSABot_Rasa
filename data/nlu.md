@@ -3,6 +3,13 @@
 - joined the channel
 - joined channel
 - has joined
+-  has joined the channel
+-  joined the channel
+-  joined channel
+-  has joined
+- join the channel
+- has join
+- join channel
 
 ## intent:hello
 - hi
