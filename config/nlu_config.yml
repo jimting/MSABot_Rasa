@@ -1,5 +1,3 @@
-language: en
-
 language: "en"
 
 pipeline: "pretrained_embeddings_spacy"
