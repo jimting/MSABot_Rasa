@@ -1,17 +1,3 @@
-FROM rasa/rasa-sdk:latest
+FROM rasa/rasa_nlu:latest-spacy
 
-ADD . /app
-
-RUN pip3 install rasa-core 
-RUN pip3 install rasa-nlu[tensorflow] 
-RUN pip3 install spacy 
-RUN pip3 install sklearn-crfsuite 
-RUN pip3 install rasa-core-sdk
-RUN python3 -m spacy download en
-
-ENTRYPOINT []
-
-CMD python3 -m rasa_core.train -d /app/domain.yml -s /app/data/stories.md -o /app/models/rasa_core
-
-CMD python3 -m rasa_core_sdk.endpoint --actions app.actions -p 5055 
-CMD python3 -m rasa_core.run --enable_api --core /app/models/rasa_core -u /app/models/rasa_nlu/current/nlu --endpoints /app/config/endpoints.yml
+RUN pip install -U $(pip freeze | cut -d '=' -f 1)
